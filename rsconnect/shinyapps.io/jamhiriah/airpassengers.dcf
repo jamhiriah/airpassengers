@@ -2,6 +2,8 @@ name: airpassengers
 account: jamhiriah
 server: shinyapps.io
 appId: 79278
-bundleId: 358651
+bundleId: 361108
 url: https://jamhiriah.shinyapps.io/airpassengers/
-when: 1453778537.11402
+when: 1454041734.86744
+asMultiple: FALSE
+asStatic: FALSE

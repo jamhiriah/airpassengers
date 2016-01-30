@@ -19,7 +19,8 @@ shinyUI(
         hr(),
         checkboxInput("inallyears", "Show All Year", value = FALSE, width = NULL),
         radioButtons("plottype", "Plot type:", choices=c("bar","line"), selected = "bar"),
-        helpText("The classic Box & Jenkins airline data. Monthly totals of international airline passengers, 1949 to 1960.")
+        helpText("The classic Box & Jenkins airline data. Monthly totals of international airline passengers, 1949 to 1960."),
+        helpText(   a("Source Codes at Github",     href="https://github.com/jamhiriah/airpassengers"))
         ),
       
       # Create a spot for tab panel
